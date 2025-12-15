@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:handapp/complaint.dart';
 import 'package:handapp/feedback.dart';
 import 'package:handapp/login.dart';
 import 'package:handapp/user_reg.dart';
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: FeedbackPage()
+      home: ComplaintPage()
     );
   }
 }
